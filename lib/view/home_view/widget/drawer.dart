@@ -305,7 +305,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                           },
                           child: Container(
                             decoration: BoxDecoration(color: selectedSubItem == 'Joomla'? Colors.blue : Colors.white),
-                            padding: EdgeInsets.all(5),
+                            padding: EdgeInsets.only(top: 7,bottom: 7,right: 6),
                             child: Row(
                               children: [
                                 SizedBox(width: 20),
@@ -342,7 +342,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                                 ),
                                 Spacer(),
                                 Container(
-                                  padding: EdgeInsets.only(left: 7,right: 7,top: 3,bottom: 3),
+                                  padding: EdgeInsets.only(left: 7,right: 7,top: 1,bottom: 1),
                                   decoration: BoxDecoration(
                                     color: Color(0xfff4f6fb),
                                     borderRadius: BorderRadius.circular(30),
@@ -367,7 +367,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                           },
                           child: Container(
                             decoration: BoxDecoration(color: selectedSubItem == 'Test Folder'? Colors.blue : Colors.white),
-                            padding: EdgeInsets.all(5),
+                            padding: EdgeInsets.only(top: 7,bottom: 7,right: 6),
                             child: Row(
                               children: [
                                 SizedBox(width: 20),
@@ -402,6 +402,21 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                                         : Colors.grey,
                                   ),
                                 ),
+                                Spacer(),
+                                Container(
+                                  padding: EdgeInsets.only(left: 7,right: 7,top: 1,bottom: 1),
+                                  decoration: BoxDecoration(
+                                    color: Color(0xfff4f6fb),
+                                    borderRadius: BorderRadius.circular(30),
+                                  ),
+                                  child: Text(
+                                    '0 / 0',
+                                    style: TextStyle(
+                                      color: Colors.grey,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                )
                               ],
                             ),
                           ),
@@ -414,7 +429,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                           },
                           child: Container(
                             decoration: BoxDecoration(color: selectedSubItem == 'New Folder'? Colors.blue : Colors.white),
-                            padding: EdgeInsets.all(5),
+                            padding: EdgeInsets.only(top: 7,bottom: 7,right: 6),
                             child: Row(
                               children: [
                                 SizedBox(width: 20),
@@ -449,6 +464,21 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                                         : Colors.grey,
                                   ),
                                 ),
+                                Spacer(),
+                                Container(
+                                  padding: EdgeInsets.only(left: 7,right: 7,top: 1,bottom: 1),
+                                  decoration: BoxDecoration(
+                                    color: Color(0xfff4f6fb),
+                                    borderRadius: BorderRadius.circular(30),
+                                  ),
+                                  child: Text(
+                                    '0 / 0',
+                                    style: TextStyle(
+                                      color: Colors.grey,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                )
                               ],
                             ),
                           ),
@@ -473,7 +503,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                       leading: Icon(
                         Icons.mail_outline,
                         color:
-                            selectedItem == 'Mail' ? Colors.blue : Colors.black,
+                            selectedItem == 'Mail' ? Colors.blue : Colors.grey,
                       ),
                       title: Text(
                         'Mail',
@@ -481,7 +511,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                           color:
                               selectedItem == 'Mail'
                                   ? Colors.blue
-                                  : Colors.black,
+                                  : Colors.grey,
                         ),
                       ),
                       selected: selectedItem == 'Mail',
