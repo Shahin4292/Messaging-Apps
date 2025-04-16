@@ -225,53 +225,53 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                   ),
                   const SizedBox(height: 6),
                   const Divider(height: 1),
-                  if (showFirstMenuItems) ...[
-                    ListTile(
-                      leading: Icon(Icons.home_outlined,
-                          color: selectedItem == 'Home' ? Colors.blue : Colors.black),
-                      title: Text(
-                        'Home',
-                        style: TextStyle(
-                          color: selectedItem == 'Home' ? Colors.blue : Colors.black,
-                        ),
-                      ),
-                      selected: selectedItem == 'Home',
-                      selectedTileColor: Colors.blue.withOpacity(0.1),
-                      onTap: () {
-                        setState(() => selectedItem = 'Home');
-                      },
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.inbox_outlined,
-                          color: selectedItem == 'Inbox' ? Colors.blue : Colors.black),
-                      title: Text(
-                        'Inbox',
-                        style: TextStyle(
-                          color: selectedItem == 'Inbox' ? Colors.blue : Colors.black,
-                        ),
-                      ),
-                      selected: selectedItem == 'Inbox',
-                      selectedTileColor: Colors.blue.withOpacity(0.1),
-                      onTap: () {
-                        setState(() => selectedItem = 'Inbox');
-                      },
-                    ),
-                    ListTile(
-                      leading: Icon(Icons.edit,
-                          color: selectedItem == 'Drafts' ? Colors.blue : Colors.black),
-                      title: Text(
-                        'Drafts',
-                        style: TextStyle(
-                          color: selectedItem == 'Drafts' ? Colors.blue : Colors.black,
-                        ),
-                      ),
-                      selected: selectedItem == 'Drafts',
-                      selectedTileColor: Colors.blue.withOpacity(0.1),
-                      onTap: () {
-                        setState(() => selectedItem = 'Drafts');
-                      },
-                    ),
-                  ],
+                  // if (showFirstMenuItems) ...[
+                  //   ListTile(
+                  //     leading: Icon(Icons.home_outlined,
+                  //         color: selectedItem == 'Home' ? Colors.blue : Colors.black),
+                  //     title: Text(
+                  //       'Home',
+                  //       style: TextStyle(
+                  //         color: selectedItem == 'Home' ? Colors.blue : Colors.black,
+                  //       ),
+                  //     ),
+                  //     selected: selectedItem == 'Home',
+                  //     selectedTileColor: Colors.blue.withOpacity(0.1),
+                  //     onTap: () {
+                  //       setState(() => selectedItem = 'Home');
+                  //     },
+                  //   ),
+                  //   ListTile(
+                  //     leading: Icon(Icons.inbox_outlined,
+                  //         color: selectedItem == 'Inbox' ? Colors.blue : Colors.grey),
+                  //     title: Text(
+                  //       'Inbox',
+                  //       style: TextStyle(
+                  //         color: selectedItem == 'Inbox' ? Colors.blue : Colors.grey,
+                  //       ),
+                  //     ),
+                  //     selected: selectedItem == 'Inbox',
+                  //     selectedTileColor: Colors.blue.withOpacity(0.1),
+                  //     onTap: () {
+                  //       setState(() => selectedItem = 'Inbox');
+                  //     },
+                  //   ),
+                  //   ListTile(
+                  //     leading: Icon(Icons.edit,
+                  //         color: selectedItem == 'Drafts' ? Colors.blue : Colors.black),
+                  //     title: Text(
+                  //       'Drafts',
+                  //       style: TextStyle(
+                  //         color: selectedItem == 'Drafts' ? Colors.blue : Colors.black,
+                  //       ),
+                  //     ),
+                  //     selected: selectedItem == 'Drafts',
+                  //     selectedTileColor: Colors.blue.withOpacity(0.1),
+                  //     onTap: () {
+                  //       setState(() => selectedItem = 'Drafts');
+                  //     },
+                  //   ),
+                  // ],
                   if (showSecondMenuItems) ...[
                     Column(
                       children: [
@@ -281,7 +281,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                             color:
                                 selectedItem == 'Inbox'
                                     ? Colors.blue
-                                    : Colors.black,
+                                    : Colors.grey,
                           ),
                           title: Text(
                             'Inbox',
@@ -289,7 +289,7 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
                               color:
                                   selectedItem == 'Inbox'
                                       ? Colors.blue
-                                      : Colors.black,
+                                      : Colors.grey,
                             ),
                           ),
                           selected: selectedItem == 'Inbox',

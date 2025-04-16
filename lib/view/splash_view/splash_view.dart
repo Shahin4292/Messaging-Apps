@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
-import '../../res/components/bottom_bar.dart';
-
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
 

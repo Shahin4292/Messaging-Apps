@@ -40,7 +40,6 @@ class _HomeViewState extends State<HomeView> {
       _selectedIndex = index;
     });
   }
-
   // final phoneServices = const [
   //   {'number': '+12524822998', 'sms': true, 'voice': false, 'efax': false},
   //   {'number': '+12145630000', 'sms': false, 'voice': false, 'efax': true},
@@ -48,7 +47,6 @@ class _HomeViewState extends State<HomeView> {
   //   {'number': '+14079321363', 'sms': true, 'voice': true, 'efax': true},
   //   {'number': '+8801889560218', 'sms': false, 'voice': false, 'efax': false},
   // ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
