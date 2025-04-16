@@ -1,3 +1,4 @@
+import 'package:demo/view/home_view/home_view.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -35,7 +36,7 @@ class SplashViewState extends State<SplashView>
     Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => CustomBottomNavScreen()),
+        MaterialPageRoute(builder: (context) => HomeView()),
       );
     });
   }
