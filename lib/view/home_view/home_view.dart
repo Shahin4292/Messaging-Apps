@@ -4,7 +4,6 @@ import 'package:demo/view/home_view/widget/table_row.dart';
 import 'package:demo/view/home_view/widget/users_all_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import '../../viewModel/chat_controller/chat_controller.dart';
 import '../chat/chat.dart';

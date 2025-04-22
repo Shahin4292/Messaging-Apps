@@ -30,30 +30,30 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
               color: Colors.grey.shade100,
               child: Column(
                 children: [
-                  const SizedBox(height: 20),
-                  Container(
-                    padding: EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      border: Border.all(color: Colors.blue, width: 2),
-                      shape: BoxShape.circle,
-                    ),
-                    child: SvgPicture.asset(
-                      "assets/icon/google.svg",
-                      height: 20,
-                      width: 20,
-                    ),
-                  ),
-                  const SizedBox(height: 20),
-                  Container(
-                    padding: EdgeInsets.all(4),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      border: Border.all(color: Colors.grey, width: 1),
-                      shape: BoxShape.circle,
-                    ),
-                    child: Icon(Icons.add, color: Colors.black),
-                  ),
+                  // const SizedBox(height: 20),
+                  // Container(
+                  //   padding: EdgeInsets.all(12),
+                  //   decoration: BoxDecoration(
+                  //     color: Colors.white,
+                  //     border: Border.all(color: Colors.blue, width: 2),
+                  //     shape: BoxShape.circle,
+                  //   ),
+                  //   child: SvgPicture.asset(
+                  //     "assets/icon/google.svg",
+                  //     height: 20,
+                  //     width: 20,
+                  //   ),
+                  // ),
+                  // const SizedBox(height: 20),
+                  // Container(
+                  //   padding: EdgeInsets.all(4),
+                  //   decoration: BoxDecoration(
+                  //     color: Colors.white,
+                  //     border: Border.all(color: Colors.grey, width: 1),
+                  //     shape: BoxShape.circle,
+                  //   ),
+                  //   child: Icon(Icons.add, color: Colors.black),
+                  // ),
                   Spacer(),
                   GestureDetector(
                     onTap: () {
@@ -203,28 +203,28 @@ class GmailStyleDrawerState extends State<GmailStyleDrawer> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 20),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
-                        Text(
-                          'Google',
-                          style: TextStyle(
-                            fontWeight: FontWeight.w500,
-                            fontSize: 16,
-                          ),
-                        ),
-                        Text(
-                          'bpitalha@gmail.com',
-                          style: TextStyle(color: Colors.grey),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 6),
-                  const Divider(height: 1),
+                  const SizedBox(height: 30),
+                  // Padding(
+                  //   padding: const EdgeInsets.symmetric(horizontal: 16),
+                  //   child: Column(
+                  //     crossAxisAlignment: CrossAxisAlignment.start,
+                  //     children: const [
+                  //       Text(
+                  //         'Google',
+                  //         style: TextStyle(
+                  //           fontWeight: FontWeight.w500,
+                  //           fontSize: 16,
+                  //         ),
+                  //       ),
+                  //       Text(
+                  //         'bpitalha@gmail.com',
+                  //         style: TextStyle(color: Colors.grey),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
+                  // const SizedBox(height: 6),
+                  // const Divider(height: 1),
                   // if (showFirstMenuItems) ...[
                   //   ListTile(
                   //     leading: Icon(Icons.home_outlined,
